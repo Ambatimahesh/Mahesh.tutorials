@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="74982" started-at="2013-12-22T06:17:08Z" finished-at="2013-12-22T06:18:23Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="74982" started-at="2013-12-22T06:17:08Z" finished-at="2013-12-22T06:18:23Z">
+      <class name="Tests.LoginTest">
+        <test-method status="PASS" signature="OpenHome(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.LoginTest@799f4192]" name="OpenHome" is-config="true" duration-ms="73479" started-at="2013-12-22T11:47:09Z" finished-at="2013-12-22T11:48:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.flipkart.com/account/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[26]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Windows 7]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://username +/+ key + @ondemand.saucelabs.com:80/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenHome -->
+        <test-method status="PASS" signature="DoLogin()[pri:0, instance:Tests.LoginTest@799f4192]" name="DoLogin" duration-ms="881" started-at="2013-12-22T11:48:22Z" finished-at="2013-12-22T11:48:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoLogin -->
+        <test-method status="PASS" signature="CloseApplication()[pri:0, instance:Tests.LoginTest@799f4192]" name="CloseApplication" is-config="true" duration-ms="599" started-at="2013-12-22T11:48:23Z" finished-at="2013-12-22T11:48:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+      </class> <!-- Tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

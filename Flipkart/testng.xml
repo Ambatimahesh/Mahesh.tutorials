@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+	<parameter name="Environment" value="Local" />
+	<parameter name="ApplicationToTest" value="https://www.flipkart.com/account/login" />
+	<parameter name="ExecutionType" value="parallel" />
+	<parameter name="Browser" value="FF" />
+	<parameter name="BrowserVersion" value="26" />
+	<parameter name="Os" value="Windows 7" />
+	<parameter name="SauceKey"
+		value="http://username +/+ key + @ondemand.saucelabs.com:80/wd/hub" />
+
+	<test name="Test">
+		<classes>
+			<class name="Tests.LoginTest" />
+		</classes>
+	</test>
+</suite> 

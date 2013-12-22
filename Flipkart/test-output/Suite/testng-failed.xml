@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="Environment" value="Local"/>
+  <parameter name="Os" value="Windows 7"/>
+  <parameter name="SauceKey" value="http://username +/+ key + @ondemand.saucelabs.com:80/wd/hub"/>
+  <parameter name="ApplicationToTest" value="https://www.flipkart.com/account/login"/>
+  <parameter name="Browser" value="FF"/>
+  <parameter name="ExecutionType" value="parallel"/>
+  <parameter name="BrowserVersion" value="26"/>
+  <test name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="Tests.LoginTest">
+        <methods>
+          <include name="DoLogin"/>
+          <include name="OpenHome"/>
+          <include name="CloseApplication"/>
+        </methods>
+      </class> <!-- Tests.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
